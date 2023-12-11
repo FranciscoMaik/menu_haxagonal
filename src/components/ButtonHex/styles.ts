@@ -37,6 +37,11 @@ export const SecondButton = styled(HexagonalButton)`
   width: 98px;
   margin-left: 1px;
 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
   transition: all 500ms;
 
   ::before {
@@ -76,5 +81,11 @@ export const SecondButton = styled(HexagonalButton)`
     ::before {
       border-bottom: 24px solid #e7daff;
     }
+  }
+
+  p {
+    font-size: 14px;
+    font-weight: bold;
+    color: #6545a4;
   }
 `;
